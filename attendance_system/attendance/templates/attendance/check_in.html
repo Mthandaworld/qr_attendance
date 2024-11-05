@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Check-In</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="check-in-container">
+        <!-- Logo -->
+        <img src="{% static 'images/logo.png' %}" alt="School Logo" width="80" style="display: block; margin: 0 auto 20px;">
+
+        <h2>Student Check-In</h2>
+
+        <!-- Check-In Form -->
+        <form method="POST" action="{% url 'process_check_in' %}">
+            {% csrf_token %}
+            <input type="text" name="student_id" placeholder="Scan Student QR Code" autofocus>
+            <button type="submit">Check In</button>
+        </form>
+    </div>
+</body>
+</html>

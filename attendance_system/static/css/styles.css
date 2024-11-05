@@ -1,0 +1,158 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for centering content */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styling */
+h1 {
+    color: #4A235A; /* Darker purple */
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Search form styling */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+form input[type="text"], form input[type="date"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+form button {
+    
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #8E44AD; /* Purple */
+    color: white;
+}
+
+form button:hover {
+    background-color: #6C3483; /* Darker purple */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #8E44AD; /* Purple */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Pagination styling */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #8E44AD; /* Purple */
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #6C3483; /* Darker purple */
+    color: white;
+}
+
+/* Export button styling */
+.export-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #8E44AD; /* Purple */
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.export-button:hover {
+    background-color: #6C3483; /* Darker purple */}
+
+    /* Check-In Page Styles */
+.check-in-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.check-in-container h2 {
+    color: #4A235A; /* Darker purple */
+    margin-bottom: 20px;
+}
+
+.check-in-container input[type="text"], 
+.check-in-container button {
+    padding: 10px;
+    width: 100%;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.check-in-container button {
+    background-color: #8E44AD; /* Purple */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.check-in-container button:hover {
+    background-color: #6C3483; /* Darker purple */
+}
